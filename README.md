@@ -1,6 +1,6 @@
 <h1 align="center">vid2train</h1>
 
-#### <p align="center">A Software Tool for Extracting Images from a Video for Artificial Intelligence Training.</p><br>
+#### <p align="center">A Tool for Extracting Images from a Video for Artificial Intelligence Training.</p><br>
 
 vid2train is a tool that enables users to create image datasets from video files for AI training purposes. It simplifies and streamlines the process of extracting and transforming frames from videos, which can otherwise be a tedious and error-prone task. 
 
