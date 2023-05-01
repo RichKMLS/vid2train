@@ -66,13 +66,13 @@ def transform_video(src_vid: str, out: str, cropsize: int, brightmin: int,
                 image = Image.fromarray(image)
 
                 # Choose a crop size randomly between cropsize and the image's minimum dimension
-                cropsize = (
+                crop_size = (
                     min(image.size)
                     if min(image.size) < cropsize
                     else random.randint(cropsize, min(image.size))
                 )
                 # Crop the image randomly
-                image = RandomCrop((cropsize, cropsize))(image)
+                image = RandomCrop((crop_size, crop_size))(image)
 
                 # Resize the image to cropsize by cropsize
                 image = Resize((cropsize, cropsize))(image)
