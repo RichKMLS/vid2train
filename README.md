@@ -13,7 +13,7 @@ vid2train provides the following features:
 
 ## Installation
 
-To use vid2train, you need to have Python 3 installed on your system. You also need the following libraries: argparse, os, time, random, string, cv2, numpy, PIL, and torchvision.
+To use vid2train, you need to have Python 3 installed on your system. You also need the following libraries: cv2, numpy, PIL, and torchvision.
 
 ## Usage
 
