@@ -50,6 +50,6 @@ This script is provided "as is" without any warranty. The author is not responsi
 See License for more info.
 
 ## Citation
-If you use vid2train in your research or project, please cite it as follows:
+To acknowledge the use of vid2train in your research or project, please cite the following reference in your publications:
 
-Rich K. MLS (2023). vid2train: A Tool for Extracting Frames from Video for AI Training. GitHub repository, https://github.com/richkmls/
+Rich K. MLS (2023). vid2train: A Software Tool for Extracting Images from a Video for Artificial Intelligence Training. GitHub repository. Available at: https://github.com/richkmls/vid2train
