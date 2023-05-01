@@ -17,17 +17,21 @@ To use vid2train, you need to have Python 3 installed on your system. You also n
 
 ## Usage
 
-To execute vid2train, open a terminal or command prompt and go to the folder where vid2train.py is stored. Then type the following command:
-
+python3 vid2train.py
 ```
-python vid2train.py \
---input <input_video_path> \
---output <output_directory_path> \
---crop_size <crop_size_in_px> \
---bright_min <min_brightness_level> \
---bright_max <max_brightness_level> \
---name_length <filename_char_length> \
---fps <images_per_second>
+usage: vid2train [-h] [--input INPUT] [--output OUTPUT] [--crop_size CROP_SIZE] [--bright_min BRIGHT_MIN] [--bright_max BRIGHT_MAX] [--name_length NAME_LENGTH] [--fps FPS]
+
+Extract frames from a video for AI training.
+
+optional arguments:
+  -h, --help                  show this help message and exit
+  --input INPUT               Input video path.
+  --output OUTPUT             Output directory path.
+  --crop_size CROP_SIZE       Image crop size in px.                      
+  --bright_min BRIGHT_MIN     Minimum brightness level.
+  --bright_max BRIGHT_MAX     Maximum brightness level.                  
+  --name_length NAME_LENGTH   Filename char length.
+  --fps FPS                   Images per second.
 ```
 
 You can also skip all the flags and enter your input video path when prompted. A new output folder with the same name as your video file + timestamp will be created and the default parameters will be applied:
