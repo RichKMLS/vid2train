@@ -99,30 +99,6 @@ def transform_video(src_vid: str, out: str, cropsize: int, brightmin: int,
     print(f"Total images created: {image_count}")
     print(f"Total frames skipped: {skipped_count}")
 
-
-
-def confirm_prompt(question: str) -> bool:
-    """
-    Ask the user a yes/no question and return a boolean value.
-
-    Parameters:
-        question (str): The question to ask the user.
-
-    Returns:
-        bool: True if the user answers 'y', False otherwise.
-    """
-
-    # Get the user's answer in lowercase
-    answer = input(f"{question} (y/n): ").lower()
-
-    # Validate the user's input and repeat the question if invalid
-    while answer not in {"y", "n"}:
-        print("Invalid input. Please enter 'y' or 'n'.")
-        answer = input(f"{question} (y/n): ").lower()
-
-    # Return the boolean value of the user's answer
-    return answer == "y"
-
 def confirm_prompt(question: str) -> bool:
     """
     Ask the user a yes/no question and return a boolean value.
