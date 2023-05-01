@@ -17,11 +17,8 @@ To use vid2train, you need to have Python 3 installed on your system. You also n
 
 ## Usage
 
-python3 vid2train.py
 ```
-usage: vid2train [-h] [--input INPUT] [--output OUTPUT] [--crop_size CROP_SIZE] [--bright_min BRIGHT_MIN] [--bright_max BRIGHT_MAX] [--name_length NAME_LENGTH] [--fps FPS]
-
-Extract frames from a video for AI training.
+python3 vid2train.py
 
 optional arguments:
   -h, --help                  show this help message and exit
