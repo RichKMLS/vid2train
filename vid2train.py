@@ -159,7 +159,7 @@ def main() -> None:
 
     # Parser object with optional args for input/output paths & constants
     parser = argparse.ArgumentParser(
-        prog="vid2train"
+        prog="vid2train",
         description="Extract frames from a video for AI training."
     )
     # Input video file path
