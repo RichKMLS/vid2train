@@ -154,7 +154,6 @@ def main() -> None:
     CROP_SIZE = 512 # Image final crop size
     BRIGHTNESS_MIN = 20 # Minimum and Maximum Brightness levels 0-256
     BRIGHTNESS_MAX = 236
-    NAME_LENGTH = 3 # Filename random character length
     FPS = 1 # Total images extracted per second of video
 
     # Parser object with optional args for input/output paths & constants
@@ -186,13 +185,6 @@ def main() -> None:
         type=int,
         default=BRIGHTNESS_MAX,
         help="Max brightness level."
-    )
-    # Filename random character length
-    parser.add_argument(
-        "--name_length",
-        type=int,
-        default=NAME_LENGTH,
-        help="Filename char length."
     )
     # Total images extracted per second of video
     parser.add_argument(
