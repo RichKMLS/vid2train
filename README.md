@@ -27,17 +27,16 @@ optional arguments:
   --crop_size CROP_SIZE       Image crop size in px.                      
   --bright_min BRIGHT_MIN     Minimum brightness level.
   --bright_max BRIGHT_MAX     Maximum brightness level.                  
-  --name_length NAME_LENGTH   Filename char length.
   --fps FPS                   Images per second.
 ```
 
 You can also skip all the flags and enter your input video path when prompted. A new output folder with the same name as your video file + timestamp will be created and the default parameters will be applied:
 
 ```
+- output: same directory as file named {filename}{timestamp}
 - crop_size: 512
 - bright_min: 20
 - bright_max: 236
-- name_length: 3
 - fps: 1
 ```
 
