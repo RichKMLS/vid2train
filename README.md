@@ -8,8 +8,8 @@ vid2train provides the following features:
 
 - It supports any video file format as input and outputs a folder of images with unique names and timestamps.
 - It allows users to customize the image size in pixels, with a default value of 512x512.
-- It filters out images that are too dark or too bright, which can improve the quality and diversity of the dataset.
-- It lets users adjust the extraction rate based on a frames per second (FPS) parameter, which can influence the number and variety of images in the dataset.
+- It filters out images that are too dark or too bright, to improve the quality and diversity of the dataset.
+- It lets users adjust the extraction rate based on a frames per second (FPS) parameter, to influence the number and variety of images in the dataset.
 
 ## Installation
 
