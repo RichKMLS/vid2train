@@ -31,6 +31,14 @@ You can also skip all the flags and enter your input video path when prompted. A
 
 The program will then ask you to confirm your settings before proceeding with the extraction and transformation process. After, you will see a message indicating how many images were saved in the output directory. You can then use these images for your AI training purposes.
 
+## Feedback and support
+
+If you have any issues, suggestions, or questions about this script, please feel free to [open an issue](https://github.com/richkmls/vid2train/issues).
+
+## Disclaimer
+
+This script is provided "as is" without any warranty. The author is not responsible for any damage or loss caused by using this script. 
+See License for more info.
 
 ## Citation
 If you use vid2train in your research or project, please cite it as follows:
